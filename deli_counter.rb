@@ -4,7 +4,7 @@
 def take_a_number (array, name)
   array.push(name)
   position=array.index(name)
-  puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
+  puts "Welcome, #{name}. You are number #{position} in line."
  end
 
 def line(array)
