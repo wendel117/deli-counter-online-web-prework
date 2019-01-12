@@ -16,6 +16,6 @@ def line(array)
  end
  puts "#{message}"
  end
-end 
+end
 
 def take_a_number()
